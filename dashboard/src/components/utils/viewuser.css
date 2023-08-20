@@ -1,0 +1,80 @@
+.heading {
+  text-align: center;
+  margin: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search,
+.byuser,
+.bystatus {
+  width: 30%;
+}
+
+.buttonclear {
+  background-color: orange;
+}
+
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: #ff6600;
+}
+
+/* .status-active {
+  color: green;
+}
+
+.status-pending {
+  color: orange;
+}
+
+.status-blocked {
+  color: red;
+} */
+.pdf-download-button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.download {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+/* viewuser.css */
+/* ... (previous CSS code) */
+
+.head {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ff6600;
+}
+.subhead{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ff6600;
+ 
+}

@@ -1,0 +1,104 @@
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+form {
+  padding: 20px;
+  border: 1px solid #fa4141;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 1500px;
+  height: 900px;
+  margin-top: 20px;
+  margin-left: 100px;
+  background-color: white;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.heading h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading h2 {
+  color: gray;
+  font-size: 25px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.Grid.Col {
+  margin-top: 30px;
+}
+.dropzone {
+  margin-left: 600px;
+  background-color: red;
+  height: 300px;
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 70px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 1000px;
+  margin-left: 230px;
+  
+}
+
+.buttons button {
+  margin-right: 20px;
+  background-color: orangered;
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+}
+
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.label {
+  flex: 1;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.input-field {
+  flex: 2;
+}
+
+.dropzone {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}

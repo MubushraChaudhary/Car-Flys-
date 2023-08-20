@@ -1,0 +1,187 @@
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-top: 45px;
+  height: 800px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: inherit;
+  gap: 1000px;
+}
+.Navbar > *:not(:last-child) {
+  margin-bottom: 150px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.header > *:not(:last-child) {
+  margin-right: 380px;
+}
+
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 8050px;
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  /* height: 2px; */
+}
+
+.Grid .mantine-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: #ddd;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 0 20px;
+  color: #ffffff;
+  background-color: black;
+}
+
+.Footer Text {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+svg {
+  margin-right: 10px;
+  fill: black;
+  width: 38px;
+  height: 38px;
+}
+
+span {
+  color: black;
+}
+
+/* db.css */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 500px;
+}
+
+.Left {
+  display: flex;
+  align-items: left;
+  gap: 100px;
+  margin-top: 2px;
+}
+
+.Right {
+  display: flex;
+  align-items: right;
+  gap: 90px;
+  margin-top: 20px;
+}
+
+/* //////////// */
+
+.header svg,
+.header span {
+  /* fill: white;  */
+  color: white;
+}
+
+.Navbar svg,
+.Navbar span {
+  /* fill: white;  */
+  color: white;
+}
+
+.Grid .same {
+  border-radius: 10px;
+  background-color: rgba(247, 134, 6, 0.973);
+  height: 100px;
+  margin: 14px;
+  color: black;
+  font-size: 20px;
+  transition: background-color 0s ease-in-out;
+}
+
+.Grid .same:hover {
+  background-color: rgb(248, 160, 44);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.Grid > .same {
+  border-radius: 10px;
+}
+
+.Grid .pic {
+  max-width: 50px;
+  height: auto;
+  border-radius: 60%;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.list-item:hover {
+  background-color: orangered;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.list-item {
+  padding: 10px;
+}
+.Navbar {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: orange #dddddd;
+}
+
+.Navbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.Navbar::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 4px;
+}
+
+.Navbar::-webkit-scrollbar-track {
+  background-color: #dddddd;
+}
+/* .usersub:hover
+{
+  background-color: orangered;
+  cursor: pointer;
+  border-radius: 5px;
+} */
